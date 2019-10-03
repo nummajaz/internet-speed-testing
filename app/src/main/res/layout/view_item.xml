@@ -7,7 +7,7 @@
     tools:context=".MainJavaActivity">
 
     <TextView
-        tools:text="Progress"
+        tools:text="Progress (%)"
         android:id="@+id/tvProgress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -15,7 +15,7 @@
         app:layout_constraintLeft_toLeftOf="parent" />
 
     <TextView
-        tools:text="Download"
+        tools:text="Download (Kbps)"
         android:id="@+id/tvDownload"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -24,7 +24,7 @@
         app:layout_constraintRight_toRightOf="parent"/>
 
     <TextView
-        tools:text="Upload"
+        tools:text="Upload (Kbps)"
         android:id="@+id/tvUpload"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
